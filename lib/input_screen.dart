@@ -1,7 +1,8 @@
+import 'package:final_project/diabetic_info_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:final_project/information_screen.dart';
-import 'package:final_project/chart_screen.dart';
+import 'package:final_project/diabetic_info_screen.dart';
 
 class inputScreen extends StatelessWidget {
   final TextEditingController beforeController = TextEditingController();
@@ -143,7 +144,7 @@ class inputScreen extends StatelessWidget {
           currentIndex: 0,
           onTap: (index) {
             if (index == 1) {
-              Get.to(() => const chartDetails());
+              Get.to(() => const diabeticInfo());
             }
           },
         ),
