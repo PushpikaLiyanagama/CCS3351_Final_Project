@@ -1,3 +1,1 @@
-# final_project
-
-A new Flutter project.
+This is a final project of our module CCS3351-Mobile Application Development (3C)
