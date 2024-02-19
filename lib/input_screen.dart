@@ -2,7 +2,7 @@ import 'package:final_project/diabetic_info_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:final_project/information_screen.dart';
-import 'package:final_project/diabetic_info_screen.dart';
+
 
 class inputScreen extends StatelessWidget {
   final TextEditingController beforeController = TextEditingController();
