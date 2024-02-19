@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:final_project/input_screen.dart';
 
-class chartDetails extends StatelessWidget {
-  const chartDetails({Key? key}) : super(key: key);
+class diabeticInfo extends StatelessWidget {
+  const diabeticInfo({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
