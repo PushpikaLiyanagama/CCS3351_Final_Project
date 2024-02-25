@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:final_project/diabetic_info_screen.dart'; // Adjust the import path according to your project structure
+import 'package:final_project/diabetic_info_screen.dart'; 
 
 void main() {
   group('DiabeticInfo Widget Tests', () {
@@ -22,10 +22,6 @@ void main() {
       expect(find.text('What is Diabetic ?'), findsOneWidget);
       expect(find.text('Understanding Diabetes and Maintaining Health'), findsOneWidget);
       expect(find.text('Managing Diabetes'), findsOneWidget);
-
-      // You can add more finders here to test for other widgets or text present in your DiabeticInfo widget.
     });
-
-    // You can add more testWidgets here for other aspects of the DiabeticInfo widget
   });
 }
